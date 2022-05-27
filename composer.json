@@ -1,0 +1,24 @@
+{
+    "name": "kirko/larawave",
+    "description": "A laravel 9 package for flutterwave rave",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kirko\\Larawave\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Kiriko",
+            "email": "john.muriu95@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kirko\\Laraware\\LarawareServiceProvider"
+            ]
+        }
+    }
+}
