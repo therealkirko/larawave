@@ -11,7 +11,7 @@ use Kirko\Larawave\Helpers\Subaccount;
 use Kirko\Larawave\Helpers\Beneficiary;
 use Kirko\Larawave\Helpers\verification;
 
-class Laraware
+class Larawave
 {
     protected $publicKey;
     protected $secretKey;

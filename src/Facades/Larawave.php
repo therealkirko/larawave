@@ -1,6 +1,6 @@
 <?php
 
-namespace Kirko\Larawave;
+namespace Kirko\Larawave\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -4,7 +4,7 @@ namespace Kirko\Larawave;
 
 use Illuminate\Support\ServiceProvider;
 
-class LarawareServiceProvider extends ServiceProvider
+class LarawaveServiceProvider extends ServiceProvider
 {
 
     protected $defer = false;
@@ -15,8 +15,8 @@ class LarawareServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('laraware', function ($app) {
-            return new Laraware($app->make("request"));
+        $this->app->singleton('larawave', function ($app) {
+            return new Larawave($app->make("request"));
         });
     }
 
@@ -41,6 +41,6 @@ class LarawareServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['laraware'];
+        return ['larawave'];
     }
 }
